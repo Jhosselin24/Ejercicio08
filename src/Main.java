@@ -23,7 +23,6 @@ public class Main {
         System.out.printf("%s tiene un alcance de: %.2f metros%n", proyectil1, alcance1);
         System.out.printf("%s tiene un alcance de: %.2f metros%n", proyectil2, alcance2);
 
-        scanner.close();
     }
 }
 
