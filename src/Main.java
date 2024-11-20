@@ -23,6 +23,14 @@ public class Main {
         System.out.printf("%s tiene un alcance de: %.2f metros%n", proyectil1, alcance1);
         System.out.printf("%s tiene un alcance de: %.2f metros%n", proyectil2, alcance2);
 
+        double tiempoVuelo1= proyectil1.calcularTiempoVuelo();
+        double tiempoVuelo2= proyectil1.calcularTiempoVuelo();
+
+        System.out.printf("El tiempo de vuelo del proyectil con ángulo %.2f° es: %.2f segundos%n", angulo1, tiempoVuelo1);
+        System.out.printf("El tiempo de vuelo del proyectil con ángulo %.2f° es: %.2f segundos%n", angulo2, tiempoVuelo2);
+
+
     }
+
 }
 
